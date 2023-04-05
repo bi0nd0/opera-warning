@@ -16,7 +16,7 @@ Header set Access-Control-Allow-Origin "https://example.com, https://example.org
 
 ## How to use
 
-The script is hosted on github pages.
+The script is hosted on github pages. Github pages is preferred to using the raw URL because it behaves like a CDN.
 
 Add the main script to the page:
 ```
