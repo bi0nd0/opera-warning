@@ -13,3 +13,12 @@ to restrict the access to only the target website, the modify `Access-Control-Al
 ```
 Header set Access-Control-Allow-Origin "https://example.com, https://example.org"
 ```
+
+## How to use
+
+The script is hosted on github pages.
+
+Add the main script to the page:
+```
+<script type="module" src="//bi0nd0.github.io/opera-warning/main.js"></script>
+``
