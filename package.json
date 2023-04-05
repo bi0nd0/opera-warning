@@ -1,0 +1,8 @@
+{
+  "name": "opera-warning",
+  "version": "1.0.0",
+  "description": "show a warning when the page loads",
+  "module": "main.js",
+  "author": "Francesco Delacqua",
+  "license": "MIT"
+}
