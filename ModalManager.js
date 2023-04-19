@@ -8,7 +8,7 @@ const template = (checked=false) => {
             <!-- <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> -->
         </div>
         <div class="modal-body">
-            <p>È online una nuova versione della risorsa. Scoprila!</p>
+            <p>È online una nuova versione della risorsa.</p>
             <p>Queste pagine saranno dismesse prossimamente.</p>
         </div>
         <div class="modal-footer">
