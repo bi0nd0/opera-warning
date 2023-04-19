@@ -59,7 +59,7 @@ onMounted( async () => {
 
 <style scoped>
 .modal-body * {
-    color: black;
+    color: black !important;
 }
 .footer {
     display: flex;
