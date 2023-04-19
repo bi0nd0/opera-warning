@@ -2,4 +2,7 @@ import { createApp } from 'vue'
 import './style.css'
 import App from './App.vue'
 
-createApp(App).mount('#app')
+const appElement = document.createElement('div')
+document.body.appendChild(appElement)
+
+createApp(App).mount(appElement)
