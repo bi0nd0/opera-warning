@@ -1,3 +1,5 @@
+import { Modal } from "bootstrap"
+
 const template = (checked=false) => {
     return `
 <div class="modal" tabindex="-1">
@@ -49,7 +51,7 @@ export default class ModalManager {
         this.#checkboxElement = this.#modalElement.querySelector('#do-not-show-again')
         this.#okButtonElement = this.#modalElement.querySelector('#ok-buttton')
         this.#goButtonElement = this.#modalElement.querySelector('#go-buttton')
-        this.#modal = new bootstrap.Modal(this.#modalElement, {
+        this.#modal = new Modal(this.#modalElement, {
             backdrop: 'static',
         })
         this.#okButtonElement.addEventListener('click', this.onOkClicked.bind(this))

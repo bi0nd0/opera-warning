@@ -17,6 +17,10 @@ The custom domain is matched to the githubpages using a cname configuration:
 ```
 opera-warning.3bees.it => bi0ndo.github.io
 ```
+The updated code is:
+```
+<script type="module" src="//opera-warning.3bees.it/main.js"></script>
+```
 
 ## Notes for self-hosting
 
