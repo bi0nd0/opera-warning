@@ -14,5 +14,8 @@ export default defineConfig({
       fileName: 'main',
     },
 
-  }
+  },
+  define: {
+    'process.env': {}
+  },
 })
