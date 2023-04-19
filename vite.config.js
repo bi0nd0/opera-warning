@@ -1,20 +1,18 @@
 import { defineConfig } from 'vite'
 import { resolve } from 'path'
+import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [],
-  resolve: {},
+  plugins: [vue()],
   build: {
     lib: {
       // Could also be a dictionary or array of multiple entry points
-      entry: resolve(__dirname, 'main.js'),
-      name: 'opera-warning',
+      entry: resolve(__dirname, 'src/lib.js'),
+      name: 'OperaWarning',
       // the proper extensions will be added
       fileName: 'main',
     },
-    rollupOptions: {},
-    extractCSS: false,
-    cssCodeSplit: false,
+
   }
 })
