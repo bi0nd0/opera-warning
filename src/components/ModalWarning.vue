@@ -3,7 +3,7 @@
         <template #header>
             <span class="modal-title">Attenzione</span>
         </template>
-        <div>
+        <div class="modal-body">
             <p>È online una nuova versione della risorsa.</p>
             <p>Queste pagine saranno dismesse prossimamente.</p>
         </div>
@@ -58,6 +58,9 @@ onMounted( async () => {
 </script>
 
 <style scoped>
+.modal-body * {
+    color: black;
+}
 .footer {
     display: flex;
     justify-content: flex-start;

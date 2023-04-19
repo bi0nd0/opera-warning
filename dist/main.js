@@ -3379,8 +3379,8 @@ const Wi = (e, t) => {
       _: 3
     }));
   }
-}, zl = /* @__PURE__ */ Wi(Gl, [["__scopeId", "data-v-bb8c632e"]]);
-const ts = (e) => (io("data-v-272e0f91"), e = e(), ro(), e), Xl = /* @__PURE__ */ ts(() => /* @__PURE__ */ Z("span", { class: "modal-title" }, "Attenzione", -1)), Jl = /* @__PURE__ */ ts(() => /* @__PURE__ */ Z("div", null, [
+}, zl = /* @__PURE__ */ Wi(Gl, [["__scopeId", "data-v-f62a72c7"]]);
+const ts = (e) => (io("data-v-9e50c6dd"), e = e(), ro(), e), Xl = /* @__PURE__ */ ts(() => /* @__PURE__ */ Z("span", { class: "modal-title" }, "Attenzione", -1)), Jl = /* @__PURE__ */ ts(() => /* @__PURE__ */ Z("div", { class: "modal-body" }, [
   /* @__PURE__ */ Z("p", null, "È online una nuova versione della risorsa."),
   /* @__PURE__ */ Z("p", null, "Queste pagine saranno dismesse prossimamente.")
 ], -1)), Zl = { class: "footer" }, Yl = { class: "left-footer" }, Ql = /* @__PURE__ */ ts(() => /* @__PURE__ */ Z("label", { for: "rememberMe" }, "non mostrare di nuovo", -1)), ec = { class: "right-footer" }, tc = ["onClick"], nc = {
@@ -3442,7 +3442,7 @@ const ts = (e) => (io("data-v-272e0f91"), e = e(), ro(), e), Xl = /* @__PURE__ *
       _: 1
     }, 512));
   }
-}, sc = /* @__PURE__ */ Wi(nc, [["__scopeId", "data-v-272e0f91"]]), ic = {
+}, sc = /* @__PURE__ */ Wi(nc, [["__scopeId", "data-v-9e50c6dd"]]), ic = {
   __name: "App",
   setup(e) {
     return (t, n) => (et(), Mt(sc));

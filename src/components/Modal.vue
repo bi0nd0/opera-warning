@@ -121,7 +121,6 @@ defineExpose({ show, hide, toggle })
 </script>
 
 <style scoped>
-
 [data-modal] {
   --modal-margin: 1.75rem;
   --modal-width: 500px;
